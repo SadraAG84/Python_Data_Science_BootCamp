@@ -13,11 +13,11 @@ y_position = [-152, -76, 0, 76, 152]
 all_turtles = []
 
 for turtle_num in range(0, 5):
-    new_tutle = Turtle(shape="turtle")
-    new_tutle.color(colors[turtle_num])
-    new_tutle.penup()
-    new_tutle.goto(x=-230, y=y_position[turtle_num])
-    all_turtles.append(new_tutle)
+    new_turtle = Turtle(shape="turtle")
+    new_turtle.color(colors[turtle_num])
+    new_turtle.penup()
+    new_turtle.goto(x=-230, y=y_position[turtle_num])
+    all_turtles.append(new_turtle)
 
 if user_bet:
     race_on = True
